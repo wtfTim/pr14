@@ -1,0 +1,40 @@
+#tabs-container {
+  width: 100%;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+
+#tabs-headers {
+  display: flex;
+  align-items: center;
+}
+
+.tab-header {
+  margin: 10px 10px 0 0;
+  padding: 10px 15px;
+  background-color: #ffffff;
+  border-radius: 5px 5px 0 0;
+  cursor: pointer;
+}
+
+.tab-header:hover {
+  background-color: #f0f0f0;
+}
+
+.tab-header.active {
+  background-color: #007bff;
+  color: white;
+}
+
+#tabs-content {
+  width: 100%;
+}
+
+.tab-content {
+  display: none;
+  padding: 20px;
+}
+
+.tab-content.active {
+  display: block;
+}
